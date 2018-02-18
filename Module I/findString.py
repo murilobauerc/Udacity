@@ -11,7 +11,6 @@ def find_second(searchString, targetString):
     return searchString.find(targetString, firstOcurrence + 1)
 
 
-
 danton = "De l'audace, encore de l'audace, toujours de l'audace"
 print (find_second(danton, 'audace'))
 #>>> 25
