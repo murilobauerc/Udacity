@@ -7,8 +7,8 @@
 
 
 def find_second(searchString, targetString):
-    firstOcurrence = searchString.find(targetString)
-    return searchString.find(targetString, firstOcurrence + 1)
+    firstOccurrence = searchString.find(targetString)
+    return searchString.find(targetString, firstOccurrence + 1)
 
 
 danton = "De l'audace, encore de l'audace, toujours de l'audace"
