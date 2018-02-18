@@ -7,7 +7,6 @@
 # code it using some built-in functions.
  
 def set_range(a,b,c):
-    # Your code here
    return max(a,b,c) - min(a,b,c)
     
 
