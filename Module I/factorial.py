@@ -3,12 +3,12 @@
 # and returns the factorial of
 # that number.
 
-def factorial(n):
+def factorial(number):
     i = 1
     fact = 1
-    while i < n:
-        fact = fact * n
-        n -= 1
+    while i < number:
+        fact = fact * number
+        number -= 1
     return fact
 
 print (factorial(4))
