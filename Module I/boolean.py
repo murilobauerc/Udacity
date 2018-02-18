@@ -3,7 +3,6 @@
 
 def weekend(day):
     return day == 'Saturday' or day == 'Sunday'
-    # your code here
 
 print (weekend('Monday'))
 #>>> False
