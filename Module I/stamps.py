@@ -16,7 +16,6 @@ def stamps(p):
     p5 = int(p / 5)
     p2 = int((p % 5) / 2)
     p1 = int((p % 5 % 2) / 1)
-
     return p5,p2,p1
 
 
