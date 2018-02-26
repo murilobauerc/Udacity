@@ -16,9 +16,15 @@ def find_element(list, value):
         i += 1
     return -1
 
+#solution using index
+def find_element_ternary(list,value):
+    return list.index(value) if value in list else -1
+
 
 print (find_element([1,2,3],3))
+print (find_element_ternary([1,2,3],3))
 #>>> 2
 
 print (find_element(['alpha','beta'],'gamma'))
+print (find_element_ternary(['alpha','beta'],'gamma'))
 #>>> -1
