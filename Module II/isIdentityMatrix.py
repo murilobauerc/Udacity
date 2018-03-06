@@ -12,8 +12,6 @@
 def is_identity_matrix(matrix):
     for i in range(len(matrix)):
        for j in range(len(matrix[i])):
-           if not matrix:
-                return False
            if i == j and matrix[i][j] != 1:
                return False
            elif i != j and matrix[i][j] != 0:
