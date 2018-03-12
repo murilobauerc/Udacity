@@ -18,6 +18,9 @@ def stamps(p):
     p1 = int((p % 5 % 2) / 1)
     return p5,p2,p1
 
+# refactoring the code above
+def stamps(p):
+    return p // 5, (p % 5) // 2, (p % 5 % 2)
 
 print (stamps(8))
 #>>> (1, 1, 1)  # one 5p stamp, one 2p stamp and one 1p stamp
