@@ -7,14 +7,13 @@
 # the numbers involved are decimals.
 
 def list_mean(list):
-    sum, count = 0,0
+    sum = 0
     if not list:
       return "Error"
     else:
         for i in list:
             sum += i
-            count += 1
-        return sum / float(count)
+        return sum / float(len(list))
 
     
     
